@@ -1,0 +1,46 @@
+#area
+{
+    height:600px;
+    width:600px;
+    border: 1px;
+    border-style: dashed;
+    
+    /*to get the canvas div in the center of the page*/
+    position:absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+#canvas
+{
+    height:500px;
+    width:500px;
+    border:1px;
+    border-style: solid;
+    /*for getting canvas in midlle of #area*/
+    margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+  
+}
+
+#command
+{
+    height:90px;
+    width:500px;
+    border: 1px;
+    border-style: solid;   
+    /*to get the canvas div in the center of the page*/
+    position:relative;
+    margin:auto;
+    /*to align the button in center of div*/
+    text-align:center;
+   
+}
+
+

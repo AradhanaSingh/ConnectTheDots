@@ -1,16 +1,17 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <link rel="stylesheet" href="css/style.css"/>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="scripts/functions.js"></script>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="area" >
-        <div id="canvas">
-          
-        </div>
-        <div id="command">
-            <input onClick="changeValueButton()" type="button" id="processButton" value="<Solve Me>">
-        </div>
-    </div>
-<script src="scripts/functions.js"></script> 
+    <center>
+        <canvas width="500px" height="500px" id="canvasArea"></canvas>
+        <br>
+        <input onClick="changeValueButton()" type="button" id="processButton" value="Solve Me">    
+    </center>
+   
+
 </body>
 </html>
